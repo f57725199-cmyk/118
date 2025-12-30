@@ -1,0 +1,63 @@
+
+import { SyllabusData } from './types';
+
+export const SYLLABUS: SyllabusData = {
+  '9': [
+    { month: 1, subjects: { Maths: ['Number Systems'], Science: ['Motion', 'Matter in Surroundings'], SST: ['French Revolution', 'India-Size & Location'] } },
+    { month: 2, subjects: { Maths: ['Polynomials'], Science: ['Force & Laws of Motion', 'Is Matter Pure'], SST: ['Socialism in Europe', 'Physical Features of India'] } },
+    { month: 3, subjects: { Maths: ['Coordinate Geometry'], Science: ['Gravitation', 'Atoms & Molecules'], SST: ['Nazism & Rise of Hitler', 'Drainage'] } },
+    { month: 4, subjects: { Maths: ['Linear Equations'], Science: ['Work & Energy', 'Structure of Atom'], SST: ['Forest Society', 'Climate'] } },
+    { month: 5, subjects: { Maths: ['Intro to Euclid’s Geometry'], Science: ['Sound', 'Cell'], SST: ['Pastoralists', 'Natural Vegetation'] } },
+    { month: 6, subjects: { Maths: ['Lines and Angles'], Science: ['Tissues'], SST: ['Democracy in Contemporary World', 'Story of Village Palampur'] } },
+    { month: 7, subjects: { Maths: ['Triangles'], Science: ['Diversity in Living Organisms'], SST: ['Constitutional Design', 'People as Resource'] } },
+    { month: 8, subjects: { Maths: ['Quadrilaterals'], Science: ['Why Do We Fall Ill'], SST: ['Electoral Politics', 'Poverty as a Challenge'] } },
+    { month: 9, subjects: { Maths: ['Areas of Parallelograms & Triangles'], Science: ['Natural Resources'], SST: ['Working of Institutions', 'Food Security in India'] } },
+    { month: 10, subjects: { Maths: ['Circles', 'Constructions'], Science: ['Improvement in Food Resources'], SST: ['Democratic Rights', 'Economics Basics'] } },
+    { month: 11, subjects: { Maths: ['Heron’s Formula', 'Surface Areas', 'Statistics', 'Probability'], Science: ['Backlog Clear & Practice'], SST: ['Remaining SST Revision/Projects'] } },
+    { month: 12, subjects: { Maths: ['FULL REVISION'], Science: ['FULL REVISION'], SST: ['FULL REVISION'] } },
+  ],
+  '10': [
+    { month: 1, subjects: { Maths: ['Real Numbers', 'Polynomials'], Science: ['Light – Reflection & Refraction'], SST: ['History Ch 1', 'Geography Ch 1'] } },
+    { month: 2, subjects: { Maths: ['Pair of Linear Equations'], Science: ['Human Eye', 'Chemical Reactions'], SST: ['History Ch 2', 'Geography Ch 2'] } },
+    { month: 3, subjects: { Maths: ['Quadratic Equations'], Science: ['Electricity', 'Acids, Bases & Salts'], SST: ['Civics Ch 1', 'Economics Ch 1'] } },
+    { month: 4, subjects: { Maths: ['Arithmetic Progressions'], Science: ['Magnetism & EMI', 'Metals & Non-metals'], SST: ['Civics Ch 2', 'Economics Ch 2'] } },
+    { month: 5, subjects: { Maths: ['Triangles'], Science: ['Sources of Energy', 'Carbon & its Compounds'], SST: ['History Ch 3', 'Geography Ch 3'] } },
+    { month: 6, subjects: { Maths: ['Coordinate Geometry'], Science: ['Life Processes'], SST: ['Civics Ch 3', 'Economics Ch 3'] } },
+    { month: 7, subjects: { Maths: ['Intro to Trigonometry'], Science: ['Control & Coordination'], SST: ['History Ch 4', 'Geography Ch 4'] } },
+    { month: 8, subjects: { Maths: ['Trigonometric Identities'], Science: ['How do Organisms Reproduce'], SST: ['Civics Ch 4', 'Economics Ch 4'] } },
+    { month: 9, subjects: { Maths: ['Heights & Distances', 'Circles'], Science: ['Heredity & Evolution'], SST: ['History Ch 5', 'Geography Ch 5'] } },
+    { month: 10, subjects: { Maths: ['Constructions', 'Areas Related to Circles'], Science: ['Environmental Chemistry', 'Environment'], SST: ['Civics Ch 5', 'Economics Ch 5'] } },
+    { month: 11, subjects: { Maths: ['Surface Areas', 'Statistics', 'Probability'], Science: ['Sample Papers & Practice'], SST: ['SST Map Work & Case Studies'] } },
+    { month: 12, subjects: { Maths: ['FULL REVISION'], Science: ['FULL REVISION'], SST: ['FULL REVISION'] } },
+  ],
+  '11': [
+    { month: 1, subjects: { Maths: ['Sets'], Physics: ['Physical World', 'Units'], Chemistry: ['Mole Concept'], Biology: ['Diversity in Living World'] } },
+    { month: 2, subjects: { Maths: ['Relations & Functions'], Physics: ['Motion in Straight Line'], Chemistry: ['Structure of Atom'], Biology: ['Biological Classification'] } },
+    { month: 3, subjects: { Maths: ['Trig. Functions'], Physics: ['Motion in a Plane'], Chemistry: ['Periodic Table'], Biology: ['Plant Kingdom'] } },
+    { month: 4, subjects: { Maths: ['Complex Numbers'], Physics: ['Laws of Motion'], Chemistry: ['Chemical Bonding'], Biology: ['Animal Kingdom'] } },
+    { month: 5, subjects: { Maths: ['Linear Inequalities'], Physics: ['Work, Energy & Power'], Chemistry: ['Thermodynamics'], Biology: ['Cell: Unit of Life'] } },
+    { month: 6, subjects: { Maths: ['Permutations & Comb.'], Physics: ['Centre of Mass & Rotation'], Chemistry: ['Equilibrium'], Biology: ['Biomolecules'] } },
+    { month: 7, subjects: { Maths: ['Binomial Theorem'], Physics: ['Gravitation'], Chemistry: ['Redox Reactions'], Biology: ['Cell Cycle'] } },
+    { month: 8, subjects: { Maths: ['Sequences & Series'], Physics: ['Properties of Solids/Fluids'], Chemistry: ['Hydrocarbons'], Biology: ['Plant Physiology (Part 1)'] } },
+    { month: 9, subjects: { Maths: ['Straight Lines'], Physics: ['Thermal Properties'], Chemistry: ['Organic Basics (GOC)'], Biology: ['Plant Physiology (Part 2)'] } },
+    { month: 10, subjects: { Maths: ['Conic Sections', '3D'], Physics: ['Thermodynamics', 'Kinetic Theory'], Chemistry: ['p-block / s-block'], Biology: ['Human Physiology (Part 1)'] } },
+    { month: 11, subjects: { Maths: ['Limits', 'Stats', 'Prob.'], Physics: ['Oscillations & Waves'], Chemistry: ['Backlog/Revision'], Biology: ['Human Physiology (Part 2)'] } },
+    { month: 12, subjects: { Maths: ['FULL REVISION'], Physics: ['FULL REVISION'], Chemistry: ['FULL REVISION'], Biology: ['FULL REVISION'] } },
+  ],
+  '12': [
+    { month: 1, subjects: { Maths: ['Relations & Functions'], Physics: ['Electrostatics'], Chemistry: ['Solid State'], Biology: ['Reproduction'] } },
+    { month: 2, subjects: { Maths: ['Inverse Trig.'], Physics: ['Current Electricity'], Chemistry: ['Solutions'], Biology: ['Genetics (Principles)'] } },
+    { month: 3, subjects: { Maths: ['Matrices'], Physics: ['Magnetism'], Chemistry: ['Electrochemistry'], Biology: ['Genetics (Molecular)'] } },
+    { month: 4, subjects: { Maths: ['Determinants'], Physics: ['EMI & AC'], Chemistry: ['Chemical Kinetics'], Biology: ['Evolution'] } },
+    { month: 5, subjects: { Maths: ['Continuity & Diff.'], Physics: ['EM Waves'], Chemistry: ['Coordination Comp.'], Biology: ['Biology in Human Welfare'] } },
+    { month: 6, subjects: { Maths: ['App. of Derivatives'], Physics: ['Ray Optics'], Chemistry: ['Haloalkanes & Arenes'], Biology: ['Biotechnology (Intro)'] } },
+    { month: 7, subjects: { Maths: ['Integrals'], Physics: ['Wave Optics'], Chemistry: ['Alcohols, Phenols'], Biology: ['Biotechnology (App)'] } },
+    { month: 8, subjects: { Maths: ['App. of Integrals'], Physics: ['Dual Nature of Matter'], Chemistry: ['Aldehydes, Ketones'], Biology: ['Ecology (Part 1)'] } },
+    { month: 9, subjects: { Maths: ['Differential Eq.'], Physics: ['Atoms & Nuclei'], Chemistry: ['Carboxylic Acids'], Biology: ['Ecology (Part 2)'] } },
+    { month: 10, subjects: { Maths: ['Vector Algebra'], Physics: ['Semiconductors'], Chemistry: ['Biomolecules'], Biology: ['Human Health'] } },
+    { month: 11, subjects: { Maths: ['3D Geometry', 'LPP', 'Prob.'], Physics: ['Communication'], Chemistry: ['Revision/Backlog'], Biology: ['Revision/Backlog'] } },
+    { month: 12, subjects: { Maths: ['FULL REVISION'], Physics: ['FULL REVISION'], Chemistry: ['FULL REVISION'], Biology: ['FULL REVISION'] } },
+  ],
+};
+
+export const REVISION_INTERVALS = [1, 3, 7, 30, 60];
